@@ -23,14 +23,14 @@ model = pickle.load(open("model.pkl", "rb"))
 vectorizer = pickle.load(open("vectorizer.pkl", "rb"))
 
 # Emotion labels
-emotion_map = {
-    0: "Sadness",
-    1: "Anger",
-    2: "Love",
-    3: "Surprise",
-    4: "Fear",
-    5: "Joy"
-}
+# emotion_map = {
+#     0: "Sadness",
+#     1: "Anger",
+#     2: "Love",
+#     3: "Surprise",
+#     4: "Fear",
+#     5: "Joy"
+# }
 
 # UI
 st.title("😊 Emotion Detection App")
