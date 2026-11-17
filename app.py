@@ -1,13 +1,13 @@
-# # import streamlit as st
-# # import pickle
-# # import string
-# # import nltk
-# # from nltk.corpus import stopwords
+import streamlit as st
+import pickle
+import string
+import nltk
+from nltk.corpus import stopwords
 
 # # Download stopwords (first time only)
-# nltk.download('stopwords')
+nltk.download('stopwords')
 
-# stop_words = set(stopwords.words('english'))
+stop_words = set(stopwords.words('english'))
 
 # Cleaning function
 def clean_text(txt):
